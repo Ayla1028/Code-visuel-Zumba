@@ -17,6 +17,29 @@
         margin:20px;
         padding: 20px;
     }
+    table,th,td{
+        border:1px solid black;
+    }
+    p.solid {border-style:solid; border-width:5px;border-color:red}
+    p.dotted {border-style: dotted; border-width: thick;border-color:blueviolet}
+    p.double {border-style:double; border-width:medium; border-color:midnightblue} 
+    p.dashed {border-style:dashed; border-color:yellowgreen}
+    p.mix {border-style: dotted dashed solid double;border-color:hotpink}
+    p.bordersides{
+        border-top-style: dotted;
+        border-right-style: solid;
+        border-bottom-style: dotted;
+        border-left-style: solid;
+    }
+    p.combinedborderproperties{
+        border:5px solid red;
+    }
+    p.round3{
+        border:2px solid red;
+        border-radius: 12 px;
+        padding: 5px;
+        border-collapse: separate;
+    }
 </style>
     </head>
     <body>
@@ -87,7 +110,66 @@
         </div>
 
         <h1 id="myHeader">My Header</h1>
+<div> 
+     &cent;
+        &pound;
+        &yen;
+        &euro;
+        L&pound;
+        &copy;
+        &reg;
 
+
+</div>
+
+<table>
+    <tr>
+        <th>Currency</th>
+        <th>Symbole</th>
+    </tr>
+    <tr>
+        <td>cent</td>
+        <td>&cent</td>
+    </tr>
+    <tr>
+        <td>
+            pound
+        </td>
+        <td>&pound</td>
+    </tr>
+    <tr>
+        <td>
+            yen
+        </td>
+        <td>&yen</td>
+    </tr>
+    <tr>
+        <td>
+            euro
+        </td>
+        <td>&#8364</td>
+    </tr>
+    <tr>
+        <td>lebanese pound</td>
+        <td>L&pound</td>
+    </tr>
+    <tr>
+        <td>copyright</td>
+        <td>&copy</td>
+    </tr>
+    <tr>
+        <td>reg</td>
+        <td>&reg</td>
+    </tr>
+</table>
+<p class="solid">A solid border.</p>
+<p class="dotted">A dotted border</p>
+<p class="double">A double border</p>
+<p class="dashed">A dashed border</p>
+<p class="mix">A mixed border</p>
+<p class="bordersides">2 different border styles.</p>
+<p class="combinedborderproperties">Combining CSS border properties</p>
+<p class="round3">Round border</p>
         
 
 
