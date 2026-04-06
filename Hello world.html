@@ -17,9 +17,7 @@
         margin:20px;
         padding: 20px;
     }
-    table,th,td{
-        border:1px solid black;
-    }
+
     
     p.round3{
         border:2px solid red;
@@ -114,7 +112,49 @@
     p.exempledetextelong{
         text-indent: 50px;
     }
+    a{
+        color: hotpink;
+        background-color: #4CAF50;
+        font-weight: bold;
+    }
+    ul.a{list-style-type: circle;}
+    ul.b{list-style-type: square;}
+    ol.d{list-style-type: upper-roman;}
+    ol.c{list-style-type: lower-roman;}
+    ol.e{list-style-type: lower-alpha}
+
+    table, td, th {
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 10px;
+    }
+    table{
+        width:100%;
+    }
+    td{
+        text-align: center;
     
+    }
+
+    th{
+        background-color:midnightblue;
+        color:aliceblue;
+    }
+
+    tr:nth-child(even){
+        background-color: #f2f2f2}
+        
+    div.static{
+        position: static;
+        border: 3px solid #69ad09a0;
+        left: 30px;
+        }
+
+    div.relative{
+        position:relative;
+        border: 3px solid #e24414;
+        left: 30px;
+    }
 
 </style>
     </head>
@@ -271,9 +311,55 @@
 
 <p class="exempledetextelong">In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since. 'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the people in this world haven't had the advantages that you've had.</p>
     
-<a href="google"
+<a href="https://www.google.com/"
 target="_blank">https://www.google.com/</a>
 
+<ul class="a">
+<li>Coffee</li>
+<li>Tea</li>
+<li>Coca cola</li>
+</ul>
+
+<ul class="b">
+    <li>Soccer</li>
+    <li>Baseball</li>
+    <li>Hockey</li>
+</ul>
+
+<ol class="d">
+    <li>Troisieme</li>
+    <li>Seconde</li>
+    <li>Premiere</li>
+    <li>Terminal</li>
+
+</ol>
+
+<ol class="c">
+    <li>CP</li>
+    <li>CE1</li>
+    <li>CE2</li>
+    <li>CM1</li>
+    <li>CM2</li>
+</ol>
+
+<ol class="e">
+    <li>Math</li>
+    <li>Science</li>
+    <li>Physique</li>
+    <li>Chimie</li>
+    <li>Francais</li>
+    <li>Anglais</li>
+    <li>Histoire</li>
+    <li>Espagnol</li>
+</ol>
+
+<div class="static">
+    this dev element has position: static
+</div>
+
+<div class="relative">
+    this dev element has position: relative
+</div>
 </body>
     </html>
 
