@@ -220,6 +220,52 @@
         background-color: solid #064650;
         color: solid #ffc4fb;
     }
+    img.disney {
+        position:absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+
+    }
+
+    div.black-box {
+        position: absolute;
+        z-index: 1;
+        border: 2px solid black;
+        height: 100px;
+        background:black;
+        margin: 60px;
+}
+
+
+div.gray-box { 
+    position: absolute;
+    z-index: 2; /* gray box will be above both green and black box */
+    background: lightgray;
+    height: 60px;  
+    width: 70%;
+
+}
+
+div.green-box {
+    position: absolute;
+    z-index: 3;
+    border: 5px solid pink;
+    height: 70px;
+    margin: 20px;
+    background: green;
+}
+div.exempleoverflow {
+  width: 200px;
+  height: 65px;
+  background-color: coral;
+  overflow: auto;
+}
+
+    
+
+
+
 
 </style>
     </head>
@@ -443,6 +489,36 @@ target="_blank">https://www.google.com/</a>
 <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
 <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
 </div>
+
+<h1>this is a heading</h1>
+<img 
+class="disney"
+src="images.jpg">
+<p>Because the image has a z-index of -1, it will be placed behind the text.</p>
+
+<div class="container">
+  <div class="black-box">Black box (z-index: 1)</div>
+  <div class="gray-box">Gray box (z-index: 2)</div>
+  <div class="green-box">Green box (z-index: 3)</div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="exempleoverflow">You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.</div>
 
 </div>
 
