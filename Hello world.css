@@ -1,0 +1,258 @@
+   #myHeader {
+         background-color: lightblue;
+         color: black;
+         padding: 40px;
+         text-align: center;
+
+    }
+    .city{
+        background-color: tomato;
+        color: white;
+        border: 2px solid black;
+        margin:20px;
+        padding: 20px;
+    }
+
+    
+    p.round3{
+        border:2px solid red;
+        border-radius: 12px;
+        padding: 5px;
+        
+    }
+    p.solid {border-style:solid; border-width:5px;border-color:red}
+    p.dotted {border-style: dotted; border-width: thick;border-color:blueviolet}
+    p.double {border-style:double; border-width:medium; border-color:midnightblue} 
+    p.dashed {border-style:dashed; border-color:yellowgreen}
+    p.mix {border-style: dotted dashed solid double;border-color:hotpink}
+    p.bordersides{
+        border-top-style: dotted;
+        border-right-style: solid;
+        border-bottom-style: dotted;
+        border-left-style: solid;
+    }
+    p.combinedborderproperties{
+        border:5px solid red;
+    }
+
+    div.margin_exercise{
+        border: 1px solid black;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 80px;
+        background-color: lightblue;
+    }
+    div.short_hand{
+        margin:25px 50px 75px 100px;
+
+        background-color:chocolate;
+    }
+    div.padding_exercise{
+        border: 1px solid black;
+        background-color: orchid;
+        padding-top: 50px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+        padding-left: 80px;
+        text-transform: capitalize;
+        font-family: "Times New roman",Times, serif;
+    }
+    div{
+        padding:25px 50px 75px 100px;
+    }
+    div.custamized_div{
+        height: 200px;
+        width: 50%;
+        border: 1px solid #4CAF50;
+        padding: 8 px;
+        background-color: #4CAF50;
+        text-transform: lowercase;
+        font-family: "Times New Roman", Times, sans-serif;
+        font-style:italic;
+        font-size: 20px
+    }
+
+    p.outlined{
+        border: 2px solid black;
+        outline: #e24414 dotted 10px;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Lucida Console","Courier New", monospace;
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    h2.Bleu{
+        color:blue;
+        text-align: left;
+        text-decoration: overline;
+        text-shadow: 2px 2px red;
+        font-weight: lighter;
+        font-size: 40px;
+
+    }
+    h3.Rose{
+        color: deeppink;
+        text-align: right;
+        text-decoration: underline;
+    }
+    h4.Jaune{
+        color:yellow;
+        text-align: center;
+        text-decoration: overline underline;
+    }
+    p.exempledetextelong{
+        text-indent: 50px;
+    }
+    a{
+        color: hotpink;
+        background-color: #4CAF50;
+        font-weight: bold;
+    }
+    ul.a{list-style-type: circle;}
+    ul.b{list-style-type: square;}
+    ol.d{list-style-type: upper-roman;}
+    ol.c{list-style-type: lower-roman;}
+    ol.e{list-style-type: lower-alpha}
+
+    table, td, th {
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 10px;
+    }
+    table{
+        width:100%;
+    }
+    td{
+        text-align: center;
+    
+    }
+
+    th{
+        background-color:midnightblue;
+        color:aliceblue;
+    }
+
+    tr:nth-child(even){
+        background-color: #f2f2f2}
+
+    div.fixed {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 300px;
+        height: 200px;
+        border: 30px solid #73AD21
+    }
+    
+        
+    div.static{
+        position: static;
+        border: 3px solid #69ad09a0;
+        left: 30px;
+        }
+
+    div.relative{
+        position:relative;
+        border: 3px solid #e24414;
+        left: 30px;
+    }
+    div.absolute {
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width:200px;
+        height:100px;
+        border: 3px solid red;
+    }
+
+    div.sticky{
+        position: sticky;
+        top: 0;
+        padding: 5px;
+        background-color: #2dd6bd;
+        border: 2px solid #127567;
+    }
+
+    div.containerparent {
+        position: relative;
+        background-color: #a2eff5;
+        height:200px;
+    }
+
+    div.boxchildtopleft{
+        position: absolute;
+        top:0;
+        left:0;
+        border: 10 px  #e39c22;
+        background-color:darkgrey;
+    }
+
+    div.boxchildtopright {
+        position: absolute;
+        top:0;
+        right:0;
+        border: 20px solid #2c13d1;
+        background-color: #0e054a;
+        color:antiquewhite;
+        }
+    div.boxchildbottomleft {
+        position: absolute;
+        bottom:0;
+        left:0;
+        border: 10px solid #ffc4fb;
+        background-color: solid #753671;
+        color: solid #ffc4fb;
+    }
+    div.boxchildbottomright {
+        position: absolute;
+        bottom:0;
+        right:0;
+        border: 10px solid #087d52;
+        background-color: solid #064650;
+        color: solid #ffc4fb;
+    }
+    img.disney {
+        position:absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+
+    }
+
+    div.black-box {
+        position: absolute;
+        z-index: 1;
+        border: 2px solid black;
+        height: 100px;
+        background:black;
+        margin: 60px;
+}
+
+
+div.gray-box { 
+    position: absolute;
+    z-index: 2; /* gray box will be above both green and black box */
+    background: lightgray;
+    height: 60px;  
+    width: 70%;
+
+}
+
+div.green-box {
+    position: absolute;
+    z-index: 3;
+    border: 5px solid pink;
+    height: 70px;
+    margin: 20px;
+    background: green;
+}
+div.exempleoverflow {
+  width: 200px;
+  height: 65px;
+  background-color: coral;
+  overflow: visible;
+}
