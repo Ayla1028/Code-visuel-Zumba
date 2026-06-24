@@ -1,287 +1,297 @@
-   #myHeader {
-         background-color: lightblue;
-         color: black;
-         padding: 40px;
-         text-align: center;
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Page Title</title>
+<link rel="stylesheet"href="Hello world.css">
 
-    }
-    .city{
-        background-color: tomato;
-        color: white;
-        border: 2px solid black;
-        margin:20px;
-        padding: 20px;
-    }
-
+    </head>
+    <div class="absolute">This dev element has position: absolute</div>
+    <body>
+        <p> Hello world</p> 
+        <h1>This is a Heading</h1>
+        <h2>This is another Heading</h2>
+        <h3>This is also a Heading</h3>
+        <h4>This is also another Heading</h4>
+        <br>
+        <br>
+        <img src="Image.webp" width="500" height="600">
     
-    p.round3{
-        border:2px solid red;
-        border-radius: 12px;
-        padding: 5px;
-        
-    }
-    p.solid {border-style:solid; border-width:5px;border-color:red}
-    p.dotted {border-style: dotted; border-width: thick;border-color:blueviolet}
-    p.double {border-style:double; border-width:medium; border-color:midnightblue} 
-    p.dashed {border-style:dashed; border-color:yellowgreen}
-    p.mix {border-style: dotted dashed solid double;border-color:hotpink}
-    p.bordersides{
-        border-top-style: dotted;
-        border-right-style: solid;
-        border-bottom-style: dotted;
-        border-left-style: solid;
-    }
-    p.combinedborderproperties{
-        border:5px solid red;
-    }
+        <h5>My fav color is pink</h5>
+        <h6>My name is Ayla</h6>
+        <h7>Helloo everyone</h7>
+        <a href="https://docs.google.com/document/d/1Of7087SO2FzfxAf1roAwvjckmjB02ihrK9zvoTTuLtU/edit?tab=t.0 ">Visit Ayla Zumba Class</a>
+        <!--This is my code!-->
+        <p>This is a paragraphe</p>
+        <!--
+        <p> Look at this cool image:-->
+            <p><b>This text is bold</b></p> 
+            <p><strong>This texte is importent</strong><p></p>
+            <p><i>This text is italic</i></p>
+            <p>This is<sub> subscript</sub>
+            <sup>superscript</sup></p>
+            <p><em>This is emphisized</em></p>
+            <p><small>This is some smaller texte</small></p>
+            <p>do not forget to buy <mark>milk</mark> today</p>
+            <p>My favorite color is <del>blue</del></p>
+            <p>My favorite color is <del>blue</del> <ins>red</ins></p>
+            <p>This is <sup>superscripted</sup> text.</p>
+            <a href="https://www.google.com/ ">This is a link</a>
+            <a target ="Pour ouvrir un nouveau tab" href="https://www.google.com/ ">This is a link that opens a new tab in browser</a>
+            <blockquote cite = "http://www.worldwildlife.org/who/index.html">For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
 
-    div.margin_exercise{
-        border: 1px solid black;
-        margin-top: 100px;
-        margin-bottom: 100px;
-        margin-right: 150px;
-        margin-left: 80px;
-        background-color: lightblue;
-    }
-    div.short_hand{
-        margin:25px 50px 75px 100px;
+            </blockquote>
+            <h2>An unordered HTML list</h2>
+            <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ul>
 
-        background-color:chocolate;
-    }
-    div.padding_exercise{
-        border: 1px solid black;
-        background-color: orchid;
-        padding-top: 50px;
-        padding-right: 30px;
-        padding-bottom: 50px;
-        padding-left: 80px;
-        text-transform: capitalize;
-        font-family: "Times New roman",Times, serif;
-    }
-    div{
-        padding:25px 50px 75px 100px;
-    }
-    div.custamized_div{
-        height: 200px;
-        width: 50%;
-        border: 1px solid #4CAF50;
-        padding: 8 px;
-        background-color: #4CAF50;
-        text-transform: lowercase;
-        font-family: "Times New Roman", Times, sans-serif;
-        font-style:italic;
-        font-size: 20px
-    }
+            <h2>An ordered HTML list</h2>
+            <p>A list of khalife siblings from oldest to yougest</p>
+            <ol>
+                <li>Adel 18 ans</li>
+                <li>Ayla 16 ans</li>
+                <li>Teym 6 ans</li>
+            </ol>
 
-    p.outlined{
-        border: 2px solid black;
-        outline: #e24414 dotted 10px;
-        margin: auto;
-        padding: 20px;
-        text-align: center;
-        text-transform: uppercase;
-        font-family: "Lucida Console","Courier New", monospace;
-        font-style: oblique;
-        font-weight: bold;
-        font-size: 30px;
-    }
-    h2.Bleu{
-        color:blue;
-        text-align: left;
-        text-decoration: overline;
-        text-shadow: 2px 2px red;
-        font-weight: lighter;
-        font-size: 40px;
+            <h2>A description list</h2>
 
-    }
-    h3.Rose{
-        color: deeppink;
-        text-align: right;
-        text-decoration: underline;
-    }
-    h4.Jaune{
-        color:yellow;
-        text-align: center;
-        text-decoration: overline underline;
-    }
-    p.exempledetextelong{
-        text-indent: 50px;
-    }
-    a{
-        color: hotpink;
-        background-color: #4CAF50;
-        font-weight: bold;
-    }
-    ul.a{list-style-type: circle;}
-    ul.b{list-style-type: square;}
-    ol.d{list-style-type: upper-roman;}
-    ol.c{list-style-type: lower-roman;}
-    ol.e{list-style-type: lower-alpha}
+            <dl>
+                <dt>Adel 18 ans</dt>
+                <dd>Grand frere</dd>
+                <dt>Ayla 16 ans</dt>
+                <dd>Only girl</dd>
+                <dt>Teym 6 ans</dt>
+                <dd>Baby of the family</dd>
+            </dl>
 
-    table, td, th {
-        border: 1px solid;
-        border-collapse: collapse;
-        padding: 10px;
-    }
-    table{
-        width:100%;
-    }
-    td{
-        text-align: center;
+            <div>I am a div</div>
+
+            <div class="city">
+            <h2>London</h2>
+            <p>London is the capital of England</p>
+        </div>
+
+        <h1 id="myHeader">My Header</h1>
+<div> 
+     &cent;
+        &pound;
+        &yen;
+        &euro;
+        L&pound;
+        &copy;
+        &reg;
+
+
+</div>
+
+<table>
+    <tr>
+        <th>Currency</th>
+        <th>Symbole</th>
+    </tr>
+    <tr>
+        <td>cent</td>
+        <td>&cent</td>
+    </tr>
+    <tr>
+        <td>
+            pound
+        </td>
+        <td>&pound</td>
+    </tr>
+    <tr>
+        <td>
+            yen
+        </td>
+        <td>&yen</td>
+    </tr>
+    <tr>
+        <td>
+            euro
+        </td>
+        <td>&#8364</td>
+    </tr>
+    <tr>
+        <td>lebanese pound</td>
+        <td>L&pound</td>
+    </tr>
+    <tr>
+        <td>copyright</td>
+        <td>&copy</td>
+    </tr>
+    <tr>
+        <td>reg</td>
+        <td>&reg</td>
+    </tr>
+</table>
+<p class="solid">A solid border.</p>
+<p class="dotted">A dotted border</p>
+<p class="double">A double border</p>
+<p class="dashed">A dashed border</p>
+<p class="mix">A mixed border</p>
+<p class="bordersides">2 different border styles.</p>
+<p class="combinedborderproperties">Combining CSS border properties</p>
+<p class="round3">Round border</p>
+
+
+<div class="margin_exercise">
+    Margin
+    </div>   
+    <div class="short_hand">
+        short hand
+    </div>
+
+ <div class="padding_exercise">
+        padding
+    </div>
+
+<div class="custamized_div">
+    helloo
+</div>
+
+<p class="outlined"> this is outlined</p>
+
+<h2 class="Bleu"> This is a bleu heading</h2>
+<h3 class="Rose"> This is a pink heading</h3>
+<h4 class="Jaune">This is a yellow heading</h4>
+
+<p class="exempledetextelong">In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since. 'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the people in this world haven't had the advantages that you've had.</p>
     
-    }
+<a href="https://www.google.com/"
+target="_blank">https://www.google.com/</a>
 
-    th{
-        background-color:midnightblue;
-        color:aliceblue;
-    }
+<ul class="a">
+<li>Coffee</li>
+<li>Tea</li>
+<li>Coca cola</li>
+</ul>
 
-    tr:nth-child(even){
-        background-color: #f2f2f2}
+<ul class="b">
+    <li>Soccer</li>
+    <li>Baseball</li>
+    <li>Hockey</li>
+</ul>
 
-    div.fixed {
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        width: 300px;
-        height: 200px;
-        border: 30px solid #73AD21
-    }
-    
-        
-    div.static{
-        position: static;
-        border: 3px solid #69ad09a0;
-        left: 30px;
-        }
+<ol class="d">
+    <li>Troisieme</li>
+    <li>Seconde</li>
+    <li>Premiere</li>
+    <li>Terminal</li>
 
-    div.relative{
-        position:relative;
-        border: 3px solid #e24414;
-        left: 30px;
-    }
-    div.absolute {
-        position: absolute;
-        top: 80px;
-        right: 0;
-        width:200px;
-        height:100px;
-        border: 3px solid red;
-    }
+</ol>
 
-    div.sticky{
-        position: sticky;
-        top: 0;
-        padding: 5px;
-        background-color: #2dd6bd;
-        border: 2px solid #127567;
-    }
+<ol class="c">
+    <li>CP</li>
+    <li>CE1</li>
+    <li>CE2</li>
+    <li>CM1</li>
+    <li>CM2</li>
+</ol>
 
-    div.containerparent {
-        position: relative;
-        background-color: #a2eff5;
-        height:200px;
-    }
+<ol class="e">
+    <li>Math</li>
+    <li>Science</li>
+    <li>Physique</li>
+    <li>Chimie</li>
+    <li>Francais</li>
+    <li>Anglais</li>
+    <li>Histoire</li>
+    <li>Espagnol</li>
+</ol>
 
-    div.boxchildtopleft{
-        position: absolute;
-        top:0;
-        left:0;
-        border: 10 px  #e39c22;
-        background-color:darkgrey;
-    }
+<div class="containerparent">
+    <div class="boxchildtopleft">Top left</div>
+    <div class="boxchildtopright">Top right</div>
+    <div class="boxchildbottomleft">Bottom left</div>
+     <div class="boxchildbottomright">Bottom right</div>
+</div>
+<!-- <div class="fixed">
+        This div element has position: fixed;
+        </div>
+-->
 
-    div.boxchildtopright {
-        position: absolute;
-        top:0;
-        right:0;
-        border: 20px solid #2c13d1;
-        background-color: #0e054a;
-        color:antiquewhite;
-        }
-    div.boxchildbottomleft {
-        position: absolute;
-        bottom:0;
-        left:0;
-        border: 10px solid #ffc4fb;
-        background-color: solid #753671;
-        color: solid #ffc4fb;
-    }
-    div.boxchildbottomright {
-        position: absolute;
-        bottom:0;
-        right:0;
-        border: 10px solid #087d52;
-        background-color: solid #064650;
-        color: solid #ffc4fb;
-    }
-    img.disney {
-        position:absolute;
-        left: 0px;
-        top: 0px;
-        z-index: -1;
+<div class="static">
+    this dev element has position: static
+</div>
 
-    }
+<div class="relative">
+    this dev element has position: relative
+</div>
+<p>Here, when the sticky element reach the top of the page (top: 0), it sticks to this position!</p>
+<div class="sticky">I have position sticky!</div>
+<div style="padding-bottom:2000px">
+<p>Scroll back up to remove the stickyness!</p>
+<p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+<p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+<p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+</div>
 
-    div.black-box {
-        position: absolute;
-        z-index: 1;
-        border: 2px solid black;
-        height: 100px;
-        background:black;
-        margin: 60px;
-}
+<h1>this is a heading</h1>
+<img 
+class="disney"
+src="images.jpg">
+<p>Because the image has a z-index of -1, it will be placed behind the text.</p>
+
+<div class="container">
+  <div class="black-box">Black box (z-index: 1)</div>
+  <div class="gray-box">Gray box (z-index: 2)</div>
+  <div class="green-box">Green box (z-index: 3)</div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="exempleoverflow">You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<form action="process.php" method="post">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+        <option value="lebanon">Lebanon</option>
+        <option value="canada">Canada</option>
+        <option value="united states">United States</option>
+    </select>
+  
+
+<input type="submit" value="Submit">
+</form>
+</body>
+    </html>
 
 
-div.gray-box { 
-    position: absolute;
-    z-index: 2; /* gray box will be above both green and black box */
-    background: lightgray;
-    height: 60px;  
-    width: 70%;
-
-}
-
-div.green-box {
-    position: absolute;
-    z-index: 3;
-    border: 5px solid pink;
-    height: 70px;
-    margin: 20px;
-    background: green;
-}
-div.exempleoverflow {
-  width: 200px;
-  height: 65px;
-  background-color: coral;
-  overflow: visible;
-}
-form {
-  border-radius: 5px;
-  background-color: #e7c1ed;
-  padding: 20px;
-}
-input[type=submit]:hover {
-  background-color: #d89ad1;
-}
-label {display: block;}
-
-input[type=submit] {
-  width: 100%;
-  background-color: rgb(140, 239, 145); 
-  color: red;
-  padding: 14px;
-  margin: 8px 0;
-  border:solid rgb(100, 164, 92);
-  border-radius: 4px;
-  cursor: pointer;
-}
-input[type=text], select {
-  width: 100%;
-  padding: 12px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
