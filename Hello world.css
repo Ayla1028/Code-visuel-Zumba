@@ -256,3 +256,32 @@ div.exempleoverflow {
   background-color: coral;
   overflow: visible;
 }
+form {
+  border-radius: 5px;
+  background-color: #e7c1ed;
+  padding: 20px;
+}
+input[type=submit]:hover {
+  background-color: #d89ad1;
+}
+label {display: block;}
+
+input[type=submit] {
+  width: 100%;
+  background-color: rgb(140, 239, 145); 
+  color: red;
+  padding: 14px;
+  margin: 8px 0;
+  border:solid rgb(100, 164, 92);
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
